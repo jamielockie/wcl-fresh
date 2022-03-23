@@ -5,12 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.2.1](https://github.com/jamielockie/wcl-fresh/compare/v1.1.1...v1.2.1) (2022-03-23)
 
-**Note:** Version bump only for package wcl-fresh
-
-
-
-
-
-## 1.1.1 (2022-03-21)
-
-**Note:** Version bump only for package wcl-fresh
+**Note:** Version bump only for package wcl-fresh-kraft

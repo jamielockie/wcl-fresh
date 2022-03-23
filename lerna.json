@@ -1,12 +1,18 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "npmClient": "npm",
   "command": {
     "publish": {
       "allowBranch": "main",
       "conventionalCommits": true,
-      "ignoreChanges": ["*.md", ".spec.ts", ".stories.ts"]
+      "ignoreChanges": [
+        "*.md",
+        ".spec.ts",
+        ".stories.ts"
+      ]
     }
   },
-  "packages": ["src/*"]
+  "packages": [
+    "src/*"
+  ]
 }

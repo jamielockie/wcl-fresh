@@ -1,7 +1,7 @@
-import React, { FC } from "react";
-import styled from "styled-components";
+import React, { FC } from 'react';
+import styled from 'styled-components';
 
-import { ButtonProps } from "./Button.types";
+import { ButtonProps } from './Button.types';
 
 const StyledButton = styled.button<ButtonProps>`
   border: 0;
@@ -20,7 +20,12 @@ const StyledButton = styled.button<ButtonProps>`
   }
 `;
 
-const Button: FC<ButtonProps> = ({ disabled, onClick, children, ...props }) => {
+export const Button: FC<ButtonProps> = ({
+  disabled,
+  onClick,
+  children,
+  ...props
+}) => {
   return (
     <StyledButton
       type="button"
@@ -32,5 +37,3 @@ const Button: FC<ButtonProps> = ({ disabled, onClick, children, ...props }) => {
     </StyledButton>
   );
 };
-
-export default Button;

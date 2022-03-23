@@ -1,3 +1,8 @@
-import Button from "./core/components/Button/Button";
+import { Button } from "./core";
+import { KraftButton } from "./kraft";
 
+// Core
 export { Button };
+
+// Kraft
+export { KraftButton };

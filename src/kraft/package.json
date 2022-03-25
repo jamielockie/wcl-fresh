@@ -1,6 +1,6 @@
 {
   "name": "wcl-fresh-kraft",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "author": "jamielockie",
   "description": "Kraft component set",
   "main": "dist/wcl-fresh-kraft.es.js",
@@ -12,10 +12,9 @@
     "build": "rollup -c",
     "tsc": "tsc",
     "test": "jest"
-
   },
   "dependencies": {
-    "wcl-fresh-core": "^1.2.1"
+    "wcl-fresh-core": "^1.2.3"
   },
   "types": "./src/wcl-fresh-kraft.d.ts"
 }

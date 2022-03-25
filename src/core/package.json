@@ -1,6 +1,6 @@
 {
   "name": "wcl-fresh-core",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "jamielockie",
   "description": "Core component set",
   "main": "dist/wcl-fresh-core.es.js",

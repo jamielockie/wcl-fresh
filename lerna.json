@@ -5,14 +5,8 @@
     "publish": {
       "allowBranch": "main",
       "conventionalCommits": true,
-      "ignoreChanges": [
-        "*.md",
-        ".spec.ts",
-        ".stories.ts"
-      ]
+      "ignoreChanges": ["*.md", ".spec.ts", ".stories.ts"]
     }
   },
-  "packages": [
-    "src/*"
-  ]
+  "packages": ["src/*"]
 }

@@ -1,4 +1,4 @@
-import e from"react";import t,{ThemeProvider as r}from"styled-components";
+import e from"react";import t from"styled-components";
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -12,7 +12,7 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
 LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
-***************************************************************************** */function o(e,t){var r={};for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&t.indexOf(o)<0&&(r[o]=e[o]);if(null!=e&&"function"==typeof Object.getOwnPropertySymbols){var n=0;for(o=Object.getOwnPropertySymbols(e);n<o.length;n++)t.indexOf(o[n])<0&&Object.prototype.propertyIsEnumerable.call(e,o[n])&&(r[o[n]]=e[o[n]])}return r}const n={contentPrimary:"#2a2e6c",contentSecondary:"#ee3345"},i=t.button`
+***************************************************************************** */function r(e,t){var r={};for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&t.indexOf(o)<0&&(r[o]=e[o]);if(null!=e&&"function"==typeof Object.getOwnPropertySymbols){var n=0;for(o=Object.getOwnPropertySymbols(e);n<o.length;n++)t.indexOf(o[n])<0&&Object.prototype.propertyIsEnumerable.call(e,o[n])&&(r[o[n]]=e[o[n]])}return r}const o=t.button`
   border: 0;
   line-height: 1.5;
   font-size: 15px;
@@ -27,7 +27,7 @@ PERFORMANCE OF THIS SOFTWARE.
   }
   &:active {
   }
-`,c=t((t=>{var{disabled:r,onClick:n,children:c}=t,l=o(t,["disabled","onClick","children"]);return e.createElement(i,Object.assign({type:"button",onClick:n,disabled:r},l),c)}))`
+`,n=t((t=>{var{disabled:n,onClick:i,children:l}=t,c=r(t,["disabled","onClick","children"]);return e.createElement(o,Object.assign({type:"button",onClick:i,disabled:n},c),l)}))`
   border: 5px solid ${({theme:e})=>e.contentSecondary};
   background-color: white;
   color: ${({theme:e})=>e.contentPrimary};
@@ -35,5 +35,5 @@ PERFORMANCE OF THIS SOFTWARE.
   font-size: 28px;
   padding: 6px 12px;
   border-radius: 50%;
-`,l=t=>{var{disabled:i,onClick:l,children:d}=t,a=o(t,["disabled","onClick","children"]);return e.createElement(r,{theme:n},e.createElement(c,Object.assign({onClick:l,disabled:i},a),d))};export{l as KraftButton};
+`,i=t=>{var{disabled:o,onClick:i,children:l}=t,c=r(t,["disabled","onClick","children"]);return e.createElement(n,Object.assign({onClick:i,disabled:o},c),l)};export{i as KraftButton};
 //# sourceMappingURL=wcl-fresh-kraft.es.js.map

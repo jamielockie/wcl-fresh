@@ -5,8 +5,17 @@
   "description": "Kraft component set",
   "main": "dist/wcl-fresh-kraft.es.js",
   "module": "dist/wcl-fresh-kraft.es.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "tsc": "tsc",
+    "test": "jest"
+
+  },
+  "dependencies": {
+    "wcl-fresh-core": "^1.2.1"
   },
   "types": "./src/wcl-fresh-kraft.d.ts"
 }

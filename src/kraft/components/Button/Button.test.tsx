@@ -1,12 +1,12 @@
-import React from "react";
-import "@testing-library/jest-dom";
-import { render, screen } from "@testing-library/react";
+import React from 'react';
+import '@testing-library/jest-dom';
+import { render, screen } from '@testing-library/react';
 
-import { KraftButton as Button } from "./Button";
+import { KraftButton } from './Button';
 
-describe("Running Test for Marbella Button", () => {
-  test("Check Button Disabled", () => {
-    render(<Button disabled>text</Button>);
-    expect(screen.getByRole("button")).toBeDisabled();
+describe('Running Test for Kraft Button', () => {
+  test('Check Button Disabled', () => {
+    render(<KraftButton disabled>text</KraftButton>);
+    expect(screen.getByRole('button')).toBeDisabled();
   });
 });

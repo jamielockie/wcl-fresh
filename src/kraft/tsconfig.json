@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist/wcl-fresh-kraft.es.js",
+    "rootDir": "src"
+  },
+  "references": [{ "path": "../core/tsconfig.json" }]
+}

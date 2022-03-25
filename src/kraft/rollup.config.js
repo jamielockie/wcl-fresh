@@ -5,7 +5,6 @@ import dts from 'rollup-plugin-dts';
 import { terser } from 'rollup-plugin-terser';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import packageJson from './package.json';
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 
 export default [
   {

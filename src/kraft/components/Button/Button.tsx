@@ -22,10 +22,8 @@ export const KraftButton: FC<ButtonProps> = ({
   ...props
 }) => {
   return (
-    <ThemeProvider theme={KraftTheme}>
-      <StyledButton onClick={onClick} disabled={disabled} {...props}>
-        {children}
-      </StyledButton>
-    </ThemeProvider>
+    <StyledButton onClick={onClick} disabled={disabled} {...props}>
+      {children}
+    </StyledButton>
   );
 };

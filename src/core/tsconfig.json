@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "composite": true,
+  "exclude": ["node_modules", "tests"],
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "declarationDir": "./typings"
+  }
+}

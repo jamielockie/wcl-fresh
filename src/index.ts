@@ -1,5 +1,5 @@
-import { Button } from "./core";
-import { KraftButton } from "./kraft";
+import { Button } from './core';
+import { KraftButton } from './kraft';
 
 // Core
 export { Button };

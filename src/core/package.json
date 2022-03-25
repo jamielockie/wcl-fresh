@@ -1,12 +1,16 @@
 {
   "name": "wcl-fresh-core",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "jamielockie",
   "description": "Core component set",
   "main": "dist/wcl-fresh-core.es.js",
   "module": "dist/wcl-fresh-core.es.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "tsc": "tsc"
   },
   "types": "./src/wcl-fresh-core.d.ts"
 }
